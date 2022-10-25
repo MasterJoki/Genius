@@ -1,0 +1,100 @@
+*{ margin: 0; padding: 0; }
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #030608;
+}
+
+/* Verde Programação = #1ed821 */
+
+.back{
+    background-color: #0A151F;
+    width: 30.114%;
+    height: 60%;
+    padding: 10vh;
+    margin: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 6vh;
+}
+
+button{
+    border: none;
+}
+
+.btn{
+    width: 10.5vw;
+    height: 21vh;
+    border-radius: 50%;
+    border: none;
+    background-color: #0A151F;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#btnVerde{
+    border: 2px solid green;
+}
+
+#btnVermelho{
+    border: 2px solid red;
+}
+
+#btnAmarelo{
+    border: 2px solid yellow;
+}
+
+#btnAzul{
+    border: 2px solid blue;
+}
+
+.art, #btnStart{
+    position: absolute;
+    width: 12vw;
+    height: 8vh;
+    top: 8vh;
+    right: 8vw;
+    background-color: #050B10;
+    border: 2px solid #1ed821;
+    color: #1ed821;
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 0.5vh;
+}
+
+.art{
+    height: 7.5vh;
+    font-size: 5vh;
+    padding-top: 1vh;   
+}
+
+#btnStart{
+    top: 45vh;
+}
+
+#btnStart:hover{
+    background-color: #1ed821;
+    color: #050B10;
+    cursor: pointer;
+}
+
+p{
+    top: 2vh;
+    right: 9.5vw;
+    position: absolute;
+    color: #1ed821;
+    font-size: 4vh;
+}
